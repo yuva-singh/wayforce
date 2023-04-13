@@ -1,0 +1,37 @@
+.btn-style{
+    background-color: transparent;
+    border-radius:2rem;
+    border: 1px solid #CF9C03;
+    padding-right:4rem;
+    padding-left:4rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)}
+
+.btn-style:hover{
+    background-color: transparent;
+    border-radius:2rem;
+    color: #CF9C03;
+    border: 1px solid #0C831F;
+    padding-right:4rem;
+    padding-left:4rem;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* bootstrap accordion */
+.accordion{
+    border: none !important;
+}
+.accordion-item{
+    border-top: none !important;
+    border-left: none !important;
+    border-right:none !important ;
+    border-bottom: 1px dotted gray !important;
+}
+.accordion-button{
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+ background-color:transparent !important;
+ color: #CF9C03;
+}
